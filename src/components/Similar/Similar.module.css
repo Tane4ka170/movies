@@ -1,0 +1,51 @@
+.castContainer {
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.castTitle {
+  font-size: 24px;
+  margin-bottom: 16px;
+  text-align: center;
+  color: #e7379e;
+}
+
+.castList {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.castItem {
+  margin: 0 10px 20px 0;
+}
+
+.movieLink {
+  text-decoration: none;
+  color: #333;
+}
+
+.castImage {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.castImage:hover {
+  transform: scale(1.05);
+}
+
+.castName {
+  margin-top: 10px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.noCastMessage {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 16px;
+  color: #b08ff4;
+}
